@@ -10,6 +10,21 @@ Este material foi criado para ser usado antes de cada publish, ajudando a revisa
 
 ---
 
+## Uso direto no Lovable
+
+A partir da versão v1.3.0, o arquivo foi estruturado para funcionar melhor quando anexado diretamente no Lovable.
+
+O objetivo é que o usuário baixe o `.md`, envie no projeto Lovable e receba uma auditoria com recomendação padrão, sem precisar saber qual prompt escrever.
+
+O checklist instrui o Lovable a:
+
+- rodar a auditoria do projeto atual;
+- evitar perguntas genéricas como “o que você quer fazer?”;
+- não aplicar correções automaticamente antes do relatório;
+- escolher a recomendação padrão mais segura para o contexto;
+- separar riscos críticos, melhorias e verificações manuais;
+- não criar autenticação, pagamento ou storage quando o projeto não precisa.
+
 ## O que este checklist cobre
 
 - Row Level Security (RLS)
@@ -39,7 +54,7 @@ Este material foi criado para ser usado antes de cada publish, ajudando a revisa
 
 1. Abra o arquivo:
 
-   `AUDITORIA-SEGURANCA-LOVABLE-v1.2.1.md`
+   `AUDITORIA-SEGURANCA-LOVABLE-v1.3.0.md`
 
 2. Copie o **Prompt Mestre** e cole no Lovable.
 
@@ -68,7 +83,7 @@ Este material é útil para:
 
 ## Versão atual
 
-**v1.2.1 — Maio/2026**
+**v1.3.0 — Maio/2026**
 
 ---
 
