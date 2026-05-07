@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.3.0 — Maio/2026
+
+- Adicionada instrução operacional para o Lovable rodar a auditoria ao receber o `.md`.
+- Reduzida a necessidade de o usuário escrever prompts adicionais após anexar o arquivo.
+- Adicionada regra para evitar respostas genéricas como “qual opção você quer?”.
+- Adicionada orientação para o Lovable escolher uma recomendação padrão segura conforme o tipo de projeto.
+- Reforçado que o primeiro passo deve ser relatório de auditoria, sem alteração automática de código.
+- Adicionada matriz de decisão automática para projetos pessoais, SaaS, apps com IA, apps com URLs externas e sistemas regulados.
+
 ## v1.2.1 — Maio/2026
 
 - Correção do rodapé de versão.
