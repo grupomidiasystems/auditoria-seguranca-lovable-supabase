@@ -1,0 +1,26 @@
+{
+  "name": "grupomidiasystems-security",
+  "owner": {
+    "name": "GrupoMidiaSystems",
+    "url": "https://grupomidiasystems.com.br"
+  },
+  "metadata": {
+    "description": "Skills públicas do GrupoMidiaSystems focadas em segurança para apps construídos com IA (Lovable, vibe coding) e Supabase.",
+    "version": "1.3.0"
+  },
+  "plugins": [
+    {
+      "name": "lovable-security-audit",
+      "source": "./skill",
+      "description": "Auditoria de segurança completa para projetos Lovable + Supabase antes de publicar. 19 módulos cobrindo RLS, RPC/SECURITY DEFINER, IDOR, Edge Functions, Storage, SSRF, prompt injection em IA, webhooks Stripe, headers, mobile/Capacitor e plano de incidente.",
+      "category": "security",
+      "tags": ["lovable", "supabase", "security", "audit", "vibe-coding", "rls", "stripe", "idor", "ssrf", "lgpd"],
+      "version": "1.3.0",
+      "author": {
+        "name": "Monaco (GrupoMidiaSystems)",
+        "url": "https://grupomidiasystems.com.br"
+      },
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
